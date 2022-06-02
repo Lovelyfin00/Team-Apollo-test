@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation section */
+nav{
+    font-family: 'Open Sans', sans-serif !important;
+}
+.input-group input{
+    padding-left: 34px;
+}
+.main-color{
+    color:#4C84C3 !important;
+}
+.header-color{
+    color: #545454 !important;
+}
+nav ::placeholder{
+    font-size: 13px;
+    color: #AAB0B3;
+}
+.w-25 .form-control{
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.border-color{
+    border: 1px solid #4C84C3 !important;
+}
+.input-border .form-control{
+    border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #4C84C3 !important;
+}
+.nav-item .nav-link.btn-outline-primary{
+    border: 1px solid #4C84C3 !important;
+}
+.nav-item .nav-link.btn-outline-primary:hover{
+    background-color: #4C84C3 !important;
+    color: white !important;
+}
+
+
+/* Footer section */
+footer{
+    font-family: 'Roboto', sans-serif !important;
+}
+.footer-bg1{
+    background-color: #283779 !important;
+}
+.footer-color{
+    color: #B2DDED !important;
+}
+.newsletter-section .container .row .col-lg-7 .row .col-lg-3 .btn-light{
+    border: 1px solid #B2DDED !important;
+    border-radius: 15px !important;
+    color: #283779;
+}
+
+#newsletter1 ::placeholder{
+    color: #283779 !important;
+}
+
+/* Footer links section */
+.footer-links{
+    background-color: rgba(27, 113, 161, 0.8);
+}
+.list-unstyled li a{
+    font-size: 14px;
+}
+.list-unstyled li a:hover{
+    color: white !important;
+}
+.copyright-section .container .w-75 p{
+    color: #E0DEDE;
+    font-size: 14px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 767px){
+    /* Footer links */
+    .footer-links .row .col-lg-1, .footer-links .row .col-lg-1 .footer-dots{
+        position: unset !important;
+    }
+}
+
+@media screen and (min-width: 767px){
+    /* Footer section */
+    .newsletter-section .container .m-auto{
+        width: 0 !important;
+    }
+    .newsletter-section .container h4, .newsletter-section .container p{
+        text-align: left !important;
+    }
+    .newsletter-section .container button{
+        margin-top: 0px !important;
+    }
+
+    /* Footer links section */
+
+    .footer-links .row .col-lg-2, .footer-links .row .col-lg-3, .footer-links .row .col-lg-1 .footer-dots{
+        text-align: left !important;
+    } 
+    
+}
+ 
