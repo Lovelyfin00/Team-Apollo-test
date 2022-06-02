@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+/* Styling nav section */
+.secondary-background{
+    background-color:hsl(217, 28%, 15%);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header-padding{
+    padding-top: 20px;
+}
+.flex{
+    display: flex;
+}
+.flex-align{
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.logo-img{
+    width: 50%;
+    height: 50%;
+}
+.nav-links ul li{
+    list-style: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.nav-links a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: hsl(0, 0%, 80%);
+}
+.nav-links a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Styling secure files section */
+.main-background{
+    background-color: hsl(218, 28%, 13%);
+}
+.img-div{
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;
+    width: 90%;
+    height: 90%;
+}
+.img-flow{
+    width: 85%;
+    height: 85%;
+}
+.bg-img{
+    background: url("../img/bg-curvy-mobile.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-text{
+    padding-top: 70px;
+    text-align: center;
+    margin:0 auto 0 auto;
+    width: 80%;
+}
+.img-text h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.img-text p{
+    color: hsl(0, 0%, 80%);
+}
+.text-margin{
+    margin-bottom: 20px;
+}
+.started-div{
+    margin-top: 30px;
+    padding-bottom: 120px;
+}
+.started-btn{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 60px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+    border-radius: 50px;
+}
+.started-btn:hover{
+    background: hsl(176, 68%, 64%);
+}
+
+/* Styling access files section */
+.flex-direction{
+    flex-direction: column;
+}
+.access-files{
+    margin:0 auto 0 auto;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 100px;
+}
+.padding-bottom{
+    padding-bottom: 160px;
+}
+.productive-container{
+    padding-bottom: 20%;
+}
+.h4-style{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.heading-style{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.p-style{
+    padding-top: 10px;
+    color: hsl(0, 0%, 80%);
+}
+
+.how-link{
+    padding-top: 10px;
+}
+.fylo-works{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+.fylo-works:hover{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.arrow{
+    margin-bottom: -1%;
+}
+
+/* Customer review */
+.all-review{
+    padding-bottom: 120px;
+}
+.quote-img{
+    display: flex;
+}
+.review-text{
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    background-color:hsl(219, 30%, 18%);
+    color:hsl(0, 0%, 80%);
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+.customer-bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.bio
+.customerImg-div{
+    display: flex;
+    width: 20%;
+    height: 20%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.customer-img{
+    width: 60%;
+    border-radius: 50%;
+}
+.customer-name{
+    color: white;
+    font-size: 16px;
+}
+
+/* Email section */
+#early-access{
+    background-image: linear-gradient(180deg, hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 50%);
+}
+
+.email-card{
+    text-align: center;
+    padding: 25px;
+    background-color: hsl(217, 28%, 15%);
+    border: 3px solid hsl(217, 28%, 15%);
+    width: 90%;
+    border-radius: 5px;
+    height: 90%;
+    margin: auto;
+}
+.email-card h4{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.email-card p{
+    color:hsl(0, 0%, 80%);
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+input[type="email"]{
+    border: none;
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+input[type="email"]:focus{
+    outline: none;
+}
+.submit-btn{
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    color: white;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+.all-content{
+    padding-top: 70px;
+    color: hsl(0, 0%, 80%);
+}
+.logo-footerDiv{
+    width: 70%;
+    margin-bottom: 30px;
+}
+.logo-footer{
+    width: 70%;
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+.icon-margin{
+    margin-right: 20px;
+}
+.icon-phone{
+    margin-right: 12px;
+}
+.email{
+    margin-bottom: 25%;
+}
+.icon-email{
+    margin-right: 12px;
+}
+
+.footer-links1 ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-links1 ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 80%);
+}
+.footer-links1 ul li a:hover{
+    color: white;
+}
+.footer-links2{
+    margin-bottom: 10%;
+}
+.footer-links2 ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer-links2 ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 90%);
+}
+.footer-links2 ul li a:hover{
+    color: white;
+}
+.social-media{
+    margin: 0 auto 0 auto;
+}
+.social-margin{
+    margin-right: 5px;
+}
+.social-list{
+    list-style: none;
+}
+.social-media ul li a{
+    color: white;
+    text-decoration: none;
+}
+.social-media ul li a:hover{
+    color:hsl(176, 68%, 64%) ;
+}
+.social{
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    width: 13%;
+    padding: 15px;
+    height: 13%;
+    border-radius: 50%;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width:1440px) and (min-width:750px) {
+    body{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    nav{
+        padding-top: 20px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    } 
+    /* Navigation */
+
+    .nav-links a{
+        font-size: 20px;
+    }
+    /* Styling secure files section */
+
+    .bg-img{
+        background: url("../img/bg-curvy-desktop.svg") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img-text{
+        width: 44%;
+    }
+    .started-div{
+        margin-top: 50px;
+    }
+    .started-btn{
+        padding: 20px 120px;
+    }
+
+    /* Access files sectio */
+    .access-anywhere{
+        padding-top: 10%;
+    }
+    .access-files{
+        padding-bottom: 30px;
+    }
+    .acess-div{
+        width: 30%;
+        margin: auto;
+    }
+    .mainImg-access{
+        width: 30%;
+    }
+    .security-div{
+        margin: auto;
+        width: 30%;
+    }
+    .main-securityImg{
+        width: 75%;
+    }
+    .access-files{
+        width: 40%;
+    }
+    .productive-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .productive-container{
+        padding-bottom: 25%;
+    }
+    .productive-text{
+        margin-left: 30px;
+    }
+    .img-div{
+        width: 60%;
+    }
+    .img-flow{
+        width: 100%;
+    }
+    .heading-style{
+        font-size: 39px;
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .h4-style{
+        font-size: 26px;
+    }
+    .flex-direction{
+        flex-direction: row;
+    }
+    .arrow{
+        margin-bottom: 0;
+    }
+    /* Customer review */
+    .all-review{
+        font-size: 14px;
+        width: 80%;
+        margin: auto;
+    }
+    .review-text{
+        padding: 20px;
+    }
+
+    .small{
+        font-size: 12px;
+    }
+    /* Email section */
+    .email-card{
+        width: 60%;
+        height: 80%;
+        padding: 30px;
+    }
+    .email-form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .email-input{
+        width: 70%;
+    }
+    .submit-btn{
+        padding: 0 30px 0 30px;
+    }
+    /* Footer section */
+    .footer-content{
+        font-size: 14px;
+    }
+    .footer-text{
+        width: 30%;
+        margin-right: 40px;
+    }
+    .contact{
+        margin-right: 40px;
+    }
+    .footer-links1{
+        margin-right: 40px;
+    }
+}
+
+
+@media screen and (min-width:1440px){
+    body{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    /* Navigation */
+    nav{
+        padding-top: 20px;
+    }
+    .nav-links a{
+        font-size: 20px;
+    }
+    /* Styling secure files section */
+
+    .bg-img{
+        background: url("../img/bg-curvy-desktop.svg") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .img-text{
+        width: 44%;
+    }
+    .started-div{
+        margin-top: 50px;
+    }
+    .started-btn{
+        padding: 20px 120px;
+    }
+
+    /* Access files sectio */
+    .access-anywhere{
+        padding-top: 15%;
+    }
+    .access-files{
+        padding-bottom: 30px;
+    }
+    .acess-div{
+        width: 30%;
+        margin: auto;
+    }
+    .mainImg-access{
+        width: 30%;
+    }
+    .security-div{
+        margin: auto;
+        width: 30%;
+    }
+    .main-securityImg{
+        width: 75%;
+    }
+    .access-files{
+        width: 40%;
+    }
+    .productive-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .productive-container{
+        padding-bottom: 25%;
+    }
+    .productive-text{
+        margin-left: 30px;
+    }
+    .img-div{
+        width: 60%;
+    }
+    .img-flow{
+        width: 100%;
+    }
+    .heading-style{
+        font-size: 39px;
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .h4-style{
+        font-size: 26px;
+    }
+    .flex-direction{
+        flex-direction: row;
+    }
+    .arrow{
+        margin-bottom: 0;
+    }
+    /* Customer review */
+    .all-review{
+        width: 80%;
+        margin: auto;
+    }
+    .review-text{
+        padding: 20px;
+    }
+
+    .small{
+        font-size: 12px;
+    }
+    /* Email section */
+    .email-card{
+        width: 60%;
+        height: 80%;
+        padding: 30px;
+    }
+    .email-form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .email-input{
+        width: 70%;
+    }
+    .submit-btn{
+        padding: 0 30px 0 30px;
+    }
+    /* Footer section */
+    .footer-content{
+        font-size: 14px;
+    }
+    .footer-text{
+        width: 30%;
+        margin-right: 40px;
+    }
+    .contact{
+        margin-right: 40px;
+    }
+    .footer-links1{
+        margin-right: 40px;
+    }
+}
